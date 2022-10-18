@@ -28,7 +28,7 @@ Partial Class Programmer
         Me.Closea = New System.Windows.Forms.Label()
         Me.Butt0 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button14 = New System.Windows.Forms.Button()
+        Me.ButtCalc = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Butt1 = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -40,14 +40,14 @@ Partial Class Programmer
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.BinToDec = New System.Windows.Forms.CheckBox()
         Me.DecToBin = New System.Windows.Forms.CheckBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Butt2 = New System.Windows.Forms.Button()
+        Me.Butt3 = New System.Windows.Forms.Button()
+        Me.Butt4 = New System.Windows.Forms.Button()
+        Me.Butt5 = New System.Windows.Forms.Button()
+        Me.Butt7 = New System.Windows.Forms.Button()
+        Me.Butt8 = New System.Windows.Forms.Button()
+        Me.Butt6 = New System.Windows.Forms.Button()
+        Me.Butt9 = New System.Windows.Forms.Button()
         Me.F2 = New System.Windows.Forms.Label()
         Me.F1 = New System.Windows.Forms.Label()
         Me.Button10 = New System.Windows.Forms.Button()
@@ -129,18 +129,18 @@ Partial Class Programmer
         Me.TextBox1.Size = New System.Drawing.Size(447, 58)
         Me.TextBox1.TabIndex = 72
         '
-        'Button14
+        'ButtCalc
         '
-        Me.Button14.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button14.Enabled = False
-        Me.Button14.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
-        Me.Button14.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button14.Location = New System.Drawing.Point(208, 723)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(400, 42)
-        Me.Button14.TabIndex = 71
-        Me.Button14.Text = "="
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.ButtCalc.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.ButtCalc.Enabled = False
+        Me.ButtCalc.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
+        Me.ButtCalc.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.ButtCalc.Location = New System.Drawing.Point(208, 723)
+        Me.ButtCalc.Name = "ButtCalc"
+        Me.ButtCalc.Size = New System.Drawing.Size(400, 42)
+        Me.ButtCalc.TabIndex = 71
+        Me.ButtCalc.Text = "="
+        Me.ButtCalc.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -174,7 +174,7 @@ Partial Class Programmer
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculatorToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(9, 31)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(164, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(162, 28)
         Me.MenuStrip1.TabIndex = 75
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -183,7 +183,7 @@ Partial Class Programmer
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalActualToolStripMenuItem, Me.ScientificToolStripMenuItem, Me.ProgrammerActualToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalActualToolStripMenuItem
@@ -214,7 +214,7 @@ Partial Class Programmer
         '
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'TextBox2
@@ -252,109 +252,109 @@ Partial Class Programmer
         Me.DecToBin.Text = "Decimal -> Binary"
         Me.DecToBin.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Butt2
         '
-        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button2.Enabled = False
-        Me.Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button2.Location = New System.Drawing.Point(360, 424)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(96, 53)
-        Me.Button2.TabIndex = 84
-        Me.Button2.Text = "2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Butt2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt2.Enabled = False
+        Me.Butt2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
+        Me.Butt2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt2.Location = New System.Drawing.Point(360, 424)
+        Me.Butt2.Name = "Butt2"
+        Me.Butt2.Size = New System.Drawing.Size(96, 53)
+        Me.Butt2.TabIndex = 84
+        Me.Butt2.Text = "2"
+        Me.Butt2.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Butt3
         '
-        Me.Button3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button3.Enabled = False
-        Me.Button3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button3.Location = New System.Drawing.Point(474, 424)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(96, 53)
-        Me.Button3.TabIndex = 83
-        Me.Button3.Text = "3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Butt3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt3.Enabled = False
+        Me.Butt3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Butt3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt3.Location = New System.Drawing.Point(474, 424)
+        Me.Butt3.Name = "Butt3"
+        Me.Butt3.Size = New System.Drawing.Size(96, 53)
+        Me.Butt3.TabIndex = 83
+        Me.Butt3.Text = "3"
+        Me.Butt3.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Butt4
         '
-        Me.Button4.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button4.Enabled = False
-        Me.Button4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button4.Location = New System.Drawing.Point(234, 496)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(96, 53)
-        Me.Button4.TabIndex = 86
-        Me.Button4.Text = "4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Butt4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt4.Enabled = False
+        Me.Butt4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
+        Me.Butt4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt4.Location = New System.Drawing.Point(234, 496)
+        Me.Butt4.Name = "Butt4"
+        Me.Butt4.Size = New System.Drawing.Size(96, 53)
+        Me.Butt4.TabIndex = 86
+        Me.Butt4.Text = "4"
+        Me.Butt4.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Butt5
         '
-        Me.Button5.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button5.Enabled = False
-        Me.Button5.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button5.Location = New System.Drawing.Point(360, 496)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(96, 53)
-        Me.Button5.TabIndex = 85
-        Me.Button5.Text = "5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Butt5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt5.Enabled = False
+        Me.Butt5.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Butt5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt5.Location = New System.Drawing.Point(360, 496)
+        Me.Butt5.Name = "Butt5"
+        Me.Butt5.Size = New System.Drawing.Size(96, 53)
+        Me.Butt5.TabIndex = 85
+        Me.Butt5.Text = "5"
+        Me.Butt5.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Butt7
         '
-        Me.Button6.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button6.Enabled = False
-        Me.Button6.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
-        Me.Button6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button6.Location = New System.Drawing.Point(234, 575)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(96, 53)
-        Me.Button6.TabIndex = 88
-        Me.Button6.Text = "7"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Butt7.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt7.Enabled = False
+        Me.Butt7.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
+        Me.Butt7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt7.Location = New System.Drawing.Point(234, 575)
+        Me.Butt7.Name = "Butt7"
+        Me.Butt7.Size = New System.Drawing.Size(96, 53)
+        Me.Butt7.TabIndex = 88
+        Me.Butt7.Text = "7"
+        Me.Butt7.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Butt8
         '
-        Me.Button7.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button7.Enabled = False
-        Me.Button7.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button7.Location = New System.Drawing.Point(360, 575)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(96, 53)
-        Me.Button7.TabIndex = 87
-        Me.Button7.Text = "8"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Butt8.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt8.Enabled = False
+        Me.Butt8.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Butt8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt8.Location = New System.Drawing.Point(360, 575)
+        Me.Butt8.Name = "Butt8"
+        Me.Butt8.Size = New System.Drawing.Size(96, 53)
+        Me.Butt8.TabIndex = 87
+        Me.Butt8.Text = "8"
+        Me.Butt8.UseVisualStyleBackColor = True
         '
-        'Button8
+        'Butt6
         '
-        Me.Button8.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button8.Enabled = False
-        Me.Button8.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
-        Me.Button8.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button8.Location = New System.Drawing.Point(474, 496)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(96, 53)
-        Me.Button8.TabIndex = 90
-        Me.Button8.Text = "6"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Butt6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt6.Enabled = False
+        Me.Butt6.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
+        Me.Butt6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt6.Location = New System.Drawing.Point(474, 496)
+        Me.Butt6.Name = "Butt6"
+        Me.Butt6.Size = New System.Drawing.Size(96, 53)
+        Me.Butt6.TabIndex = 90
+        Me.Butt6.Text = "6"
+        Me.Butt6.UseVisualStyleBackColor = True
         '
-        'Button9
+        'Butt9
         '
-        Me.Button9.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button9.Enabled = False
-        Me.Button9.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button9.Location = New System.Drawing.Point(474, 575)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(96, 53)
-        Me.Button9.TabIndex = 91
-        Me.Button9.Text = "9"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Butt9.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Butt9.Enabled = False
+        Me.Butt9.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
+        Me.Butt9.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Butt9.Location = New System.Drawing.Point(474, 575)
+        Me.Butt9.Name = "Butt9"
+        Me.Butt9.Size = New System.Drawing.Size(96, 53)
+        Me.Butt9.TabIndex = 91
+        Me.Butt9.Text = "9"
+        Me.Butt9.UseVisualStyleBackColor = True
         '
         'F2
         '
@@ -403,7 +403,7 @@ Partial Class Programmer
         '
         Me.OctToDec.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.OctToDec.AutoSize = True
-        Me.OctToDec.Location = New System.Drawing.Point(504, 238)
+        Me.OctToDec.Location = New System.Drawing.Point(520, 238)
         Me.OctToDec.Name = "OctToDec"
         Me.OctToDec.Size = New System.Drawing.Size(127, 20)
         Me.OctToDec.TabIndex = 95
@@ -415,19 +415,17 @@ Partial Class Programmer
         Me.information.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.information.AutoSize = True
         Me.information.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.information.Location = New System.Drawing.Point(120, 796)
+        Me.information.Location = New System.Drawing.Point(599, 596)
         Me.information.Name = "information"
-        Me.information.Size = New System.Drawing.Size(582, 60)
+        Me.information.Size = New System.Drawing.Size(176, 20)
         Me.information.TabIndex = 97
-        Me.information.Text = "In Binary System, numbers from 2 to 9 are disabled because is based on 0,1." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "In O" &
-    "ctal System, numbers 8,9 aren't available." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "The A,B,C,D,E,F letters are availabl" &
-    "e only in hexadecimal numbers."
+        Me.information.Text = "Hexadecimal numbers"
         '
         'OctToHex
         '
         Me.OctToHex.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.OctToHex.AutoSize = True
-        Me.OctToHex.Location = New System.Drawing.Point(504, 292)
+        Me.OctToHex.Location = New System.Drawing.Point(520, 292)
         Me.OctToHex.Name = "OctToHex"
         Me.OctToHex.Size = New System.Drawing.Size(157, 20)
         Me.OctToHex.TabIndex = 101
@@ -438,7 +436,7 @@ Partial Class Programmer
         '
         Me.OctToBin.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.OctToBin.AutoSize = True
-        Me.OctToBin.Location = New System.Drawing.Point(504, 266)
+        Me.OctToBin.Location = New System.Drawing.Point(520, 266)
         Me.OctToBin.Name = "OctToBin"
         Me.OctToBin.Size = New System.Drawing.Size(115, 20)
         Me.OctToBin.TabIndex = 100
@@ -517,7 +515,7 @@ Partial Class Programmer
         Me.ButtonC.Enabled = False
         Me.ButtonC.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
         Me.ButtonC.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ButtonC.Location = New System.Drawing.Point(604, 483)
+        Me.ButtonC.Location = New System.Drawing.Point(612, 485)
         Me.ButtonC.Name = "ButtonC"
         Me.ButtonC.Size = New System.Drawing.Size(66, 40)
         Me.ButtonC.TabIndex = 108
@@ -530,7 +528,7 @@ Partial Class Programmer
         Me.ButtonB.Enabled = False
         Me.ButtonB.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
         Me.ButtonB.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ButtonB.Location = New System.Drawing.Point(694, 423)
+        Me.ButtonB.Location = New System.Drawing.Point(702, 425)
         Me.ButtonB.Name = "ButtonB"
         Me.ButtonB.Size = New System.Drawing.Size(66, 40)
         Me.ButtonB.TabIndex = 107
@@ -543,7 +541,7 @@ Partial Class Programmer
         Me.ButtonA.Enabled = False
         Me.ButtonA.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonA.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ButtonA.Location = New System.Drawing.Point(604, 423)
+        Me.ButtonA.Location = New System.Drawing.Point(612, 425)
         Me.ButtonA.Name = "ButtonA"
         Me.ButtonA.Size = New System.Drawing.Size(66, 40)
         Me.ButtonA.TabIndex = 106
@@ -556,7 +554,7 @@ Partial Class Programmer
         Me.ButtonD.Enabled = False
         Me.ButtonD.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
         Me.ButtonD.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ButtonD.Location = New System.Drawing.Point(694, 483)
+        Me.ButtonD.Location = New System.Drawing.Point(702, 485)
         Me.ButtonD.Name = "ButtonD"
         Me.ButtonD.Size = New System.Drawing.Size(66, 40)
         Me.ButtonD.TabIndex = 109
@@ -569,7 +567,7 @@ Partial Class Programmer
         Me.ButtonF.Enabled = False
         Me.ButtonF.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!)
         Me.ButtonF.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ButtonF.Location = New System.Drawing.Point(694, 542)
+        Me.ButtonF.Location = New System.Drawing.Point(702, 544)
         Me.ButtonF.Name = "ButtonF"
         Me.ButtonF.Size = New System.Drawing.Size(66, 40)
         Me.ButtonF.TabIndex = 111
@@ -582,7 +580,7 @@ Partial Class Programmer
         Me.ButtonE.Enabled = False
         Me.ButtonE.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonE.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ButtonE.Location = New System.Drawing.Point(604, 542)
+        Me.ButtonE.Location = New System.Drawing.Point(612, 544)
         Me.ButtonE.Name = "ButtonE"
         Me.ButtonE.Size = New System.Drawing.Size(66, 40)
         Me.ButtonE.TabIndex = 110
@@ -615,14 +613,14 @@ Partial Class Programmer
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.F1)
         Me.Controls.Add(Me.F2)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Butt9)
+        Me.Controls.Add(Me.Butt6)
+        Me.Controls.Add(Me.Butt7)
+        Me.Controls.Add(Me.Butt8)
+        Me.Controls.Add(Me.Butt4)
+        Me.Controls.Add(Me.Butt5)
+        Me.Controls.Add(Me.Butt2)
+        Me.Controls.Add(Me.Butt3)
         Me.Controls.Add(Me.DecToBin)
         Me.Controls.Add(Me.BinToDec)
         Me.Controls.Add(Me.TextBox2)
@@ -630,7 +628,7 @@ Partial Class Programmer
         Me.Controls.Add(Me.Minimizea)
         Me.Controls.Add(Me.Closea)
         Me.Controls.Add(Me.Butt0)
-        Me.Controls.Add(Me.Button14)
+        Me.Controls.Add(Me.ButtCalc)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Butt1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -653,7 +651,7 @@ Partial Class Programmer
     Friend WithEvents Closea As Label
     Friend WithEvents Butt0 As Button
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button14 As Button
+    Friend WithEvents ButtCalc As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Butt1 As Button
     Friend WithEvents MenuStrip1 As MenuStrip
@@ -665,14 +663,14 @@ Partial Class Programmer
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents BinToDec As CheckBox
     Friend WithEvents DecToBin As CheckBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
+    Friend WithEvents Butt2 As Button
+    Friend WithEvents Butt3 As Button
+    Friend WithEvents Butt4 As Button
+    Friend WithEvents Butt5 As Button
+    Friend WithEvents Butt7 As Button
+    Friend WithEvents Butt8 As Button
+    Friend WithEvents Butt6 As Button
+    Friend WithEvents Butt9 As Button
     Friend WithEvents F2 As Label
     Friend WithEvents F1 As Label
     Friend WithEvents Button10 As Button

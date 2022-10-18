@@ -174,7 +174,7 @@ Public Class Programmer
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles ButtCalc.Click
         If (DecToBin.Checked = True) Then
             TextBox2.Text = DecimalToBinary(TextBox1.Text)
         Else
@@ -213,7 +213,7 @@ Public Class Programmer
                                                     End If
                                                 End If
                                             End If
-                                            End If
+                                        End If
                                     End If
                                 End If
                             End If
@@ -232,6 +232,7 @@ Public Class Programmer
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
         TextBox1.Text = ""
         TextBox2.Text = ""
         F2.Text = ""
@@ -240,29 +241,29 @@ Public Class Programmer
         BinToDec.Checked = False
         Butt0.Enabled = False
         Butt1.Enabled = False
-        Button2.Enabled = False
-        Button3.Enabled = False
-        Button4.Enabled = False
-        Button5.Enabled = False
-        Button6.Enabled = False
-        Button7.Enabled = False
-        Button8.Enabled = False
-        Button9.Enabled = False
-        Button14.Enabled = False
+        Butt2.Enabled = False
+        Butt3.Enabled = False
+        Butt4.Enabled = False
+        Butt5.Enabled = False
+        Butt7.Enabled = False
+        Butt8.Enabled = False
+        Butt6.Enabled = False
+        Butt9.Enabled = False
+        ButtCalc.Enabled = False
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles BinToDec.CheckedChanged
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = False
-        Button3.Enabled = False
-        Button4.Enabled = False
-        Button5.Enabled = False
-        Button6.Enabled = False
-        Button7.Enabled = False
-        Button8.Enabled = False
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = False
+        Butt3.Enabled = False
+        Butt4.Enabled = False
+        Butt5.Enabled = False
+        Butt7.Enabled = False
+        Butt8.Enabled = False
+        Butt6.Enabled = False
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         DecToBin.Checked = False
         OctToDec.Checked = False
         DecToOct.Checked = False
@@ -277,17 +278,18 @@ Public Class Programmer
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles DecToBin.CheckedChanged
+
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = True
-        Button8.Enabled = True
-        Button9.Enabled = True
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = True
+        Butt6.Enabled = True
+        Butt9.Enabled = True
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         BinToDec.Checked = False
@@ -297,31 +299,31 @@ Public Class Programmer
         F2.Text = "BIN"
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Butt3.Click
         TextBox1.Text = TextBox1.Text & “3”
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Butt4.Click
         TextBox1.Text = TextBox1.Text & “4”
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Butt5.Click
         TextBox1.Text = TextBox1.Text & “5”
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Butt6.Click
         TextBox1.Text = TextBox1.Text & “6”
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Butt7.Click
         TextBox1.Text = TextBox1.Text & “7”
     End Sub
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Butt8.Click
         TextBox1.Text = TextBox1.Text & “8”
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Butt9.Click
         TextBox1.Text = TextBox1.Text & “9”
     End Sub
 
@@ -330,11 +332,12 @@ Public Class Programmer
         TextBox2.Text = ""
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Butt2.Click
         TextBox1.Text = TextBox1.Text & “2”
     End Sub
 
     Private Sub DectoOct_CheckedChanged(sender As Object, e As EventArgs) Handles DecToOct.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -343,15 +346,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = True
-        Button8.Enabled = True
-        Button9.Enabled = True
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = True
+        Butt6.Enabled = True
+        Butt9.Enabled = True
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         BinToDec.Checked = False
@@ -362,6 +365,7 @@ Public Class Programmer
     End Sub
 
     Private Sub OctaltoDec_CheckedChanged(sender As Object, e As EventArgs) Handles OctToDec.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -370,15 +374,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = False
+        Butt6.Enabled = True
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         BinToDec.Checked = False
@@ -389,6 +393,7 @@ Public Class Programmer
     End Sub
 
     Private Sub BinToHex_CheckedChanged(sender As Object, e As EventArgs) Handles BinToHex.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -397,15 +402,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = False
-        Button3.Enabled = False
-        Button4.Enabled = False
-        Button5.Enabled = False
-        Button6.Enabled = False
-        Button7.Enabled = False
-        Button8.Enabled = False
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = False
+        Butt3.Enabled = False
+        Butt4.Enabled = False
+        Butt5.Enabled = False
+        Butt7.Enabled = False
+        Butt8.Enabled = False
+        Butt6.Enabled = False
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         'ALL CONVERTIONS'
         DecToBin.Checked = False
         OctToDec.Checked = False
@@ -422,6 +427,7 @@ Public Class Programmer
     End Sub
 
     Private Sub BintoOct_CheckedChanged(sender As Object, e As EventArgs) Handles BintoOct.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -430,15 +436,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = False
-        Button3.Enabled = False
-        Button4.Enabled = False
-        Button5.Enabled = False
-        Button6.Enabled = False
-        Button7.Enabled = False
-        Button8.Enabled = False
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = False
+        Butt3.Enabled = False
+        Butt4.Enabled = False
+        Butt5.Enabled = False
+        Butt7.Enabled = False
+        Butt8.Enabled = False
+        Butt6.Enabled = False
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         'ALL CONVERTIONS'
         DecToBin.Checked = False
         OctToDec.Checked = False
@@ -455,6 +461,7 @@ Public Class Programmer
     End Sub
 
     Private Sub OctToBin_CheckedChanged(sender As Object, e As EventArgs) Handles OctToBin.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -463,15 +470,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = False
+        Butt6.Enabled = True
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         'ALL CONVERTIONS'
         DecToBin.Checked = False
         OctToDec.Checked = False
@@ -488,6 +495,7 @@ Public Class Programmer
     End Sub
 
     Private Sub DecToHex_CheckedChanged(sender As Object, e As EventArgs) Handles DecToHex.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -496,15 +504,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = False
+        Butt6.Enabled = True
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         DecToBin.Checked = False
@@ -520,6 +528,7 @@ Public Class Programmer
     End Sub
 
     Private Sub HexToOct_CheckedChanged(sender As Object, e As EventArgs) Handles HexToOct.CheckedChanged
+
         ButtonA.Enabled = True
         ButtonB.Enabled = True
         ButtonC.Enabled = True
@@ -528,15 +537,15 @@ Public Class Programmer
         ButtonF.Enabled = True
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = True
+        Butt6.Enabled = True
+        Butt9.Enabled = True
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         DecToBin.Checked = False
@@ -554,6 +563,7 @@ Public Class Programmer
     End Sub
 
     Private Sub HexToDec_CheckedChanged(sender As Object, e As EventArgs) Handles HexToDec.CheckedChanged
+
         ButtonA.Enabled = True
         ButtonB.Enabled = True
         ButtonC.Enabled = True
@@ -562,15 +572,15 @@ Public Class Programmer
         ButtonF.Enabled = True
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = True
+        Butt6.Enabled = True
+        Butt9.Enabled = True
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         DecToBin.Checked = False
@@ -610,6 +620,7 @@ Public Class Programmer
     End Sub
 
     Private Sub HexToBin_CheckedChanged(sender As Object, e As EventArgs) Handles HexToBin.CheckedChanged
+
         ButtonA.Enabled = True
         ButtonB.Enabled = True
         ButtonC.Enabled = True
@@ -618,15 +629,15 @@ Public Class Programmer
         ButtonF.Enabled = True
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = True
+        Butt6.Enabled = True
+        Butt9.Enabled = True
+        ButtCalc.Enabled = True
         TextBox1.Text = ""
         TextBox2.Text = ""
         DecToBin.Checked = False
@@ -644,6 +655,7 @@ Public Class Programmer
     End Sub
 
     Private Sub OctToHex_CheckedChanged(sender As Object, e As EventArgs) Handles OctToHex.CheckedChanged
+
         ButtonA.Enabled = False
         ButtonB.Enabled = False
         ButtonC.Enabled = False
@@ -652,15 +664,15 @@ Public Class Programmer
         ButtonF.Enabled = False
         Butt0.Enabled = True
         Butt1.Enabled = True
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
-        Button5.Enabled = True
-        Button6.Enabled = True
-        Button7.Enabled = False
-        Button8.Enabled = True
-        Button9.Enabled = False
-        Button14.Enabled = True
+        Butt2.Enabled = True
+        Butt3.Enabled = True
+        Butt4.Enabled = True
+        Butt5.Enabled = True
+        Butt7.Enabled = True
+        Butt8.Enabled = False
+        Butt6.Enabled = True
+        Butt9.Enabled = False
+        ButtCalc.Enabled = True
         'ALL CONVERTIONS'
         DecToBin.Checked = False
         OctToDec.Checked = False
